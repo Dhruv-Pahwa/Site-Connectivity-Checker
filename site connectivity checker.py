@@ -1,11 +1,11 @@
 import urllib.request as urllib
 
 
-def main(url):
+def main(dhruv):
     print("Checking connectivity ")
     
-    response = urllib.urlopen(url)
-    print("Connected to" , url, "succesfully")
+    response = urllib.urlopen(dhruv)
+    print("Connected to" , dhruv, "succesfully")
     print("The response code was: ", response.getcode())
 
 print("This is a site connectivity checker program")
