@@ -1,6 +1,5 @@
 import urllib.request as urllib
 
-
 def main(dhruv):
     print("Checking connectivity ")
     
